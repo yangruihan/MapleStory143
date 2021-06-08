@@ -69,7 +69,7 @@ class CashShopItemsTest {
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
     CashShopItemsTest.load()
     getAllItemSort().forEach { println("SN:${it.key} 是否正在销售:${it.value.onSale()}") }
 
